@@ -55,3 +55,5 @@
 13. 安装zip unzip（不需要，安装桌面的时候会自动安装）
 
         sudo apt update && sudo apt install zip unzip -y
+
+14. 配置了git
