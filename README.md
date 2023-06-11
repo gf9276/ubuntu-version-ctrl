@@ -14,6 +14,7 @@
 
 1. 安装了 gnome 桌面
 
+        apt-mark hold acpid acpi-support
         apt install ubuntu-desktop gnome -y
 
 2. 设置了xrdp
