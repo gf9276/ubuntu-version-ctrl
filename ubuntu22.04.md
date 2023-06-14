@@ -1,54 +1,54 @@
-# ubuntu22.04
-记录ubuntu22.04使用情况
-
-
 <!-- TOC -->
 
-- [1. 版本 2306111955](#1-版本-2306111955)
-  - [1.1. 直接就是从微软商店下载下来的](#11-直接就是从微软商店下载下来的)
-  - [1.2. 在 wsl.conf 下加入了](#12-在-wslconf-下加入了)
-  - [1.3. 打开上下键补全历史命令](#13-打开上下键补全历史命令)
-  - [1.4. zip](#14-zip)
-  - [1.5. ~/.gitconfig 写入用户信息](#15-gitconfig-写入用户信息)
-  - [1.6. 代理配置](#16-代理配置)
-  - [1.7. 设置root密码 -- 926219](#17-设置root密码----926219)
-  - [1.8. 安装apt-fast](#18-安装apt-fast)
-  - [1.9. 设置snap代理（22.04火狐和软件商店用的都是snap，然鹅这玩意不会读取全局代理）](#19-设置snap代理2204火狐和软件商店用的都是snap然鹅这玩意不会读取全局代理)
-  - [1.10. 锁住！](#110-锁住)
-  - [1.11. 安装gnome（安装snap-firefox会等一会儿）](#111-安装gnome安装snap-firefox会等一会儿)
-  - [1.12. 安装xrdp](#112-安装xrdp)
-  - [1.13. 重装dbus](#113-重装dbus)
-  - [1.14. 修复网络](#114-修复网络)
-  - [1.15. 重启并远程连接](#115-重启并远程连接)
-- [2. 版本 2306112027](#2-版本-2306112027)
-  - [2.1. 执行配置中文 zh\_CN\_utf-8](#21-执行配置中文-zh_cn_utf-8)
-  - [2.2. 安装谷歌拼音](#22-安装谷歌拼音)
-  - [2.3. 好像没有变成中文](#23-好像没有变成中文)
-  - [2.4. 细枝末节](#24-细枝末节)
-  - [2.5. 下载了vscode](#25-下载了vscode)
-- [3. 版本 2306112149](#3-版本-2306112149)
-  - [3.1. 安装谷歌浏览器，我还是喜欢谷歌一点](#31-安装谷歌浏览器我还是喜欢谷歌一点)
-  - [3.2. 卸载火狐浏览器（我只卸载了snap的）](#32-卸载火狐浏览器我只卸载了snap的)
-  - [3.3. 安装jdk8](#33-安装jdk8)
-  - [3.4. 安装idea](#34-安装idea)
-  - [3.5. 安装了miniconda](#35-安装了miniconda)
-- [now](#now)
+- [1. ubuntu22.04](#1-ubuntu2204)
+- [2. 版本 2306111955](#2-版本-2306111955)
+  - [2.1. 直接就是从微软商店下载下来的](#21-直接就是从微软商店下载下来的)
+  - [2.2. 在 wsl.conf 下加入了](#22-在-wslconf-下加入了)
+  - [2.3. 打开上下键补全历史命令](#23-打开上下键补全历史命令)
+  - [2.4. zip](#24-zip)
+  - [2.5. ~/.gitconfig 写入用户信息](#25-gitconfig-写入用户信息)
+  - [2.6. 代理配置](#26-代理配置)
+  - [2.7. 设置root密码 -- 926219](#27-设置root密码----926219)
+  - [2.8. 安装apt-fast](#28-安装apt-fast)
+  - [2.9. 设置snap代理（22.04火狐和软件商店用的都是snap，然鹅这玩意不会读取全局代理）](#29-设置snap代理2204火狐和软件商店用的都是snap然鹅这玩意不会读取全局代理)
+  - [2.10. 锁住！](#210-锁住)
+  - [2.11. 安装gnome（安装snap-firefox会等一会儿）](#211-安装gnome安装snap-firefox会等一会儿)
+  - [2.12. 安装xrdp](#212-安装xrdp)
+  - [2.13. 重装dbus](#213-重装dbus)
+  - [2.14. 修复网络](#214-修复网络)
+  - [2.15. 重启并远程连接](#215-重启并远程连接)
+- [3. 版本 2306112027](#3-版本-2306112027)
+  - [3.1. 执行配置中文 zh\_CN\_utf-8](#31-执行配置中文-zh_cn_utf-8)
+  - [3.2. 安装谷歌拼音](#32-安装谷歌拼音)
+  - [3.3. 好像没有变成中文](#33-好像没有变成中文)
+  - [3.4. 细枝末节](#34-细枝末节)
+  - [3.5. 下载了vscode](#35-下载了vscode)
+- [4. 版本 2306112149](#4-版本-2306112149)
+  - [4.1. 安装谷歌浏览器，我还是喜欢谷歌一点](#41-安装谷歌浏览器我还是喜欢谷歌一点)
+  - [4.2. 卸载火狐浏览器（我只卸载了snap的）](#42-卸载火狐浏览器我只卸载了snap的)
+  - [4.3. 安装jdk8](#43-安装jdk8)
+  - [4.4. 安装idea](#44-安装idea)
+  - [4.5. 安装了miniconda](#45-安装了miniconda)
+- [5. now](#5-now)
 
 <!-- /TOC -->
 
+# 1. ubuntu22.04
+记录ubuntu22.04使用情况
 
-# 1. 版本 2306111955
 
-## 1.1. 直接就是从微软商店下载下来的
+# 2. 版本 2306111955
 
-## 1.2. 在 wsl.conf 下加入了
+## 2.1. 直接就是从微软商店下载下来的
+
+## 2.2. 在 wsl.conf 下加入了
 
 ```        
 [user]
 default=guof
 ```
   
-## 1.3. 打开上下键补全历史命令
+## 2.3. 打开上下键补全历史命令
 
 ```
 sudo vim /etc/inputrc
@@ -57,7 +57,7 @@ sudo vim /etc/inputrc
 把里面的5~改成A，6~改成B了，是哪一个看里面的说明就是了
 
 
-## 1.4. zip
+## 2.4. zip
 
 直接输入以下指令
 
@@ -65,7 +65,7 @@ sudo vim /etc/inputrc
 apt update && apt install zip unzip
 ```
 
-## 1.5. ~/.gitconfig 写入用户信息
+## 2.5. ~/.gitconfig 写入用户信息
 
 git clone 了几个文件夹，然后配置了用户信息
 
@@ -76,7 +76,7 @@ git config --global user.name "gf9276"
 git config --global user.email "927621609@qq.com"
 ```
 
-## 1.6. 代理配置
+## 2.6. 代理配置
 
 ```
 cd ~/ && git clone https://github.com/gf9276/ShFiles.git && cd ShFiles && git pull
@@ -86,13 +86,13 @@ cd ~/ && git clone https://github.com/gf9276/ShFiles.git && cd ShFiles && git pu
 sudo mv ~/ShFiles/my_proxy.sh /etc/profile.d/
 ```
 
-## 1.7. 设置root密码 -- 926219
+## 2.7. 设置root密码 -- 926219
 
 ```
 sudo passwd root
 ```
 
-## 1.8. 安装apt-fast
+## 2.8. 安装apt-fast
 
 切换成root用户，su -l，执行
 
@@ -102,7 +102,7 @@ bash /home/guof/ShFiles/my_install_aptfast.sh
 
 apt --> 12 --> No
 
-## 1.9. 设置snap代理（22.04火狐和软件商店用的都是snap，然鹅这玩意不会读取全局代理）
+## 2.9. 设置snap代理（22.04火狐和软件商店用的都是snap，然鹅这玩意不会读取全局代理）
 
 看看代理ip是啥
 ```
@@ -115,7 +115,7 @@ snap set system proxy.http="http://172.22.160.1:7890"
 snap set system proxy.https="http://172.22.160.1:7890"
 ```
 
-## 1.10. 锁住！
+## 2.10. 锁住！
 
 安装gnome前，锁住三个东西，避免变得不幸
 
@@ -131,7 +131,7 @@ modemmanager是管理网络的，也是检测到容器网络设置直接卡死
 
 [参考链接](https://forum.ubuntu.com.cn/viewtopic.php?t=490583)
 
-## 1.11. 安装gnome（安装snap-firefox会等一会儿）
+## 2.11. 安装gnome（安装snap-firefox会等一会儿）
 
 先更新
 
@@ -151,7 +151,7 @@ apt-fast install ubuntu-desktop gnome -y
 apt install ubuntu-desktop gnome -y
 ```
 
-## 1.12. 安装xrdp
+## 2.12. 安装xrdp
 
 1. 安装
 
@@ -183,7 +183,7 @@ export WAYLAND_DISPLAY=
 export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
 ```
 
-## 1.13. 重装dbus
+## 2.13. 重装dbus
 
 必须重装，不然会不幸（su -l变回root）
 
@@ -197,7 +197,7 @@ sudo chmod 4754 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
 sudo chown root:messagebus /usr/lib/dbus-1.0/dbus-daemon-launch-helper
 ```
 
-## 1.14. 修复网络
+## 2.14. 修复网络
 
 这文件就是空的，不过这么干能把网络图标给搞回来。。。
 
@@ -207,7 +207,7 @@ sudo chown root:messagebus /usr/lib/dbus-1.0/dbus-daemon-launch-helper
 touch /etc/NetworkManager/conf.d/10-globally-managed-devices.conf
 ```
 
-## 1.15. 重启并远程连接
+## 2.15. 重启并远程连接
 
 测试了一下打开设置
 
@@ -228,17 +228,17 @@ www.github.com
 
 ---
 
-# 2. 版本 2306112027
+# 3. 版本 2306112027
 
 开始个性化配置
 
-## 2.1. 执行配置中文 zh_CN_utf-8
+## 3.1. 执行配置中文 zh_CN_utf-8
 
 ```
 bash /home/guof/ShFiles/my_set_lang.sh
 ```
 
-## 2.2. 安装谷歌拼音
+## 3.2. 安装谷歌拼音
 
 ```
 apt -y install fcitx fonts-noto-cjk fonts-noto-color-emoji dbus-x11 fcitx-googlepinyin
@@ -262,7 +262,7 @@ cp /home/guof/ShFiles/my_fcitx.sh /etc/profile.d/
 重启一下，再次进入远程桌面，选择保留文件为英文名字
 
 
-## 2.3. 好像没有变成中文
+## 3.3. 好像没有变成中文
 
 打开 gnome-language-selector，它会提示没有装完
 
@@ -273,7 +273,7 @@ cp /home/guof/ShFiles/my_fcitx.sh /etc/profile.d/
 fcitx-configtool
 ```
 
-## 2.4. 细枝末节
+## 3.4. 细枝末节
 
 1. 调整终端大小
 2. 侧边栏放到下面（外观那里改），颜色换成紫色了
@@ -282,7 +282,7 @@ fcitx-configtool
 5. 这玩意还是放到文档下面好  `mv ShFiles ~/Documents/` 直接挪过去了
 6. 其实我还想删掉firefox，启动好慢啊
 
-## 2.5. 下载了vscode 
+## 3.5. 下载了vscode 
 
 直接官网下载 .deb 后
 
@@ -293,9 +293,9 @@ dpkg -i 就行了
 导入配置
 
 
-# 3. 版本 2306112149
+# 4. 版本 2306112149
 
-## 3.1. 安装谷歌浏览器，我还是喜欢谷歌一点
+## 4.1. 安装谷歌浏览器，我还是喜欢谷歌一点
 
 1. 将目录更改为 temp 文件夹：`cd /tmp`
 2. 使用 wget 下载它：`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
@@ -308,7 +308,7 @@ dpkg -i 就行了
 谷歌浏览器会使用桌面的代理，所以还要配置一下桌面的代理
 
 
-## 3.2. 卸载火狐浏览器（我只卸载了snap的）
+## 4.2. 卸载火狐浏览器（我只卸载了snap的）
 
 这jb有两个火狐，一个apt，一个snap...
 
@@ -322,13 +322,13 @@ sudo apt-get purge firefox firefox-locale-en firefox-locale-zh-hans
 
 2. snap的，直接打开 **软件** 应用，找到firefox直接卸载就行，标签是蓝色的。。。对了，打开软件会报错，这个暂时好像没有影响，以后再看
 
-## 3.3. 安装jdk8
+## 4.3. 安装jdk8
 
 ```
 bash /home/guof/Documents/ShFiles/my_install_java.sh
 ```
 
-## 3.4. 安装idea
+## 4.4. 安装idea
 
 直接下载到 /opt 下面，然后执行 idea.sh
 
@@ -344,7 +344,7 @@ bash /home/guof/Documents/ShFiles/my_install_java.sh
 
 图标改成小号的了
 
-## 3.5. 安装了miniconda
+## 4.5. 安装了miniconda
 
 并且在base环境下安装了打包工具
 
@@ -352,7 +352,7 @@ bash /home/guof/Documents/ShFiles/my_install_java.sh
 conda install -c conda-forge conda-pack
 ```
 
-# now
+# 5. now
 
 * fwupd
   <details>
