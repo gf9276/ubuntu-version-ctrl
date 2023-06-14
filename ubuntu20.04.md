@@ -1,4 +1,4 @@
-# ubuntu-20.04-version-ctrl
+# ubuntu20.04.md
 我自己用的ubuntu20.04版本管理，记录变化
 
 # 2306101435
