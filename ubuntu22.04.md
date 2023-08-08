@@ -356,7 +356,7 @@ conda install -c conda-forge conda-pack
 
 * fwupd
   <details>
-  <summary>不要删这个，没准还真有点用</summary>
+  <summary>不要删这个，没准还真有点用（暂时没删除）</summary>
   关闭 fwupd --> 这是一个更新固件的软件，我在容器里要这个干嘛
 
   好像有点奇怪，别乱用
@@ -387,3 +387,7 @@ conda install -c conda-forge conda-pack
   ```
   
 * 绷不住了，昨天还是59帧，今天突然变50了
+
+* 设置dock
+  
+    ![](picture\配置dock行为.png)
