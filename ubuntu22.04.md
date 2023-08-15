@@ -391,3 +391,7 @@ conda install -c conda-forge conda-pack
 * 设置dock
   
     ![](picture\配置dock行为.png)
+
+* 安装了NoMachine
+
+* 优化了idea的图标，嘿嘿
