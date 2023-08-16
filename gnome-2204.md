@@ -29,7 +29,8 @@
   - [4.3. 安装jdk8](#43-安装jdk8)
   - [4.4. 安装idea](#44-安装idea)
   - [4.5. 安装了miniconda](#45-安装了miniconda)
-- [5. now](#5-now)
+- [5. 版本 2308161708](#5-版本-2308161708)
+- [6. now](#6-now)
 
 <!-- /TOC -->
 
@@ -352,7 +353,7 @@ bash /home/guof/Documents/ShFiles/my_install_java.sh
 conda install -c conda-forge conda-pack
 ```
 
-# 5. now
+# 5. 版本 2308161708
 
 * fwupd
   <details>
@@ -395,3 +396,5 @@ conda install -c conda-forge conda-pack
 * 安装了NoMachine
 
 * 优化了idea的图标，嘿嘿
+
+# 6. now
