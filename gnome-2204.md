@@ -398,3 +398,19 @@ conda install -c conda-forge conda-pack
 * 优化了idea的图标，嘿嘿
 
 # 6. now
+
+* 测井环境配置
+
+* py3.7conda环境拷贝
+
+* 安装mysql
+
+* 安装minio
+
+* git config --global core.autocrlf false
+
+* 安装maven
+
+* 安装hdf
+
+* nlogging项目配置
