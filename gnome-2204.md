@@ -414,3 +414,5 @@ conda install -c conda-forge conda-pack
 * 安装hdf
 
 * nlogging项目配置
+
+* idea下载python插件
