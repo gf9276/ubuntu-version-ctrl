@@ -416,3 +416,5 @@ conda install -c conda-forge conda-pack
 * nlogging项目配置
 
 * idea下载python插件
+
+* apt install tree
