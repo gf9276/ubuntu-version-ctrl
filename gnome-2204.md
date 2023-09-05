@@ -418,3 +418,12 @@ conda install -c conda-forge conda-pack
 * idea下载python插件
 
 * apt install tree
+
+* 防止断开连接但是没有注销界面导致一堆bug
+
+    ```
+    sudo vim /etc/xrdp/sesman.ini
+    ```
+    ```
+    KillDisconnected=true
+    ```
