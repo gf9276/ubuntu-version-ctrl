@@ -427,3 +427,5 @@ conda install -c conda-forge conda-pack
     ```
     KillDisconnected=true
     ```
+  
+* sudo apt install net-tools
