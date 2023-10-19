@@ -429,3 +429,5 @@ conda install -c conda-forge conda-pack
     ```
   
 * sudo apt install net-tools
+
+* sudo apt install gpustat
