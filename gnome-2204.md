@@ -431,3 +431,5 @@ conda install -c conda-forge conda-pack
 * sudo apt install net-tools
 
 * sudo apt install gpustat
+
+* 修改 my_proxy.sh 文件，使其不输出内容
