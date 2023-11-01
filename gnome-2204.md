@@ -30,7 +30,10 @@
   - [4.4. 安装idea](#44-安装idea)
   - [4.5. 安装了miniconda](#45-安装了miniconda)
 - [5. 版本 2308161708](#5-版本-2308161708)
-- [6. now](#6-now)
+- [6. 版本 231101](#6-版本-231101)
+  - [6.1. 版本 2311011411（因为不小心安装了gpustat，这个版本废了，用不了显卡）](#61-版本-2311011411因为不小心安装了gpustat这个版本废了用不了显卡)
+  - [6.2. 版本 2311011631（好的）](#62-版本-2311011631好的)
+- [7. now](#7-now)
 
 <!-- /TOC -->
 
@@ -397,7 +400,10 @@ conda install -c conda-forge conda-pack
 
 * 优化了idea的图标，嘿嘿
 
-# 6. now
+
+# 6. 版本 231101
+
+## 6.1. 版本 2311011411（因为不小心安装了gpustat，这个版本废了，用不了显卡）
 
 * 测井环境配置
 
@@ -433,3 +439,42 @@ conda install -c conda-forge conda-pack
 * sudo apt install gpustat
 
 * 修改 my_proxy.sh 文件，使其不输出内容
+
+## 6.2. 版本 2311011631（好的）
+
+* git config --global core.autocrlf false √
+
+* jdk8 jdk17，默认8 √
+
+* 安装maven √
+
+* py3.7conda环境拷贝 √
+
+* 安装mysql √
+
+* 安装minio √
+
+* 安装hdf √
+
+* nlogging项目配置（测井代码下载，mysql更新，minio更新） √
+
+* ~~idea下载python插件~~
+
+* apt install tree √
+
+* 防止断开连接但是没有注销界面导致一堆bug √
+
+    ```
+    sudo vim /etc/xrdp/sesman.ini
+    ```
+    ```
+    KillDisconnected=true
+    ```
+  
+* sudo apt install net-tools √
+
+* ~~sudo apt install gpustat **（绝对不要安装，会导致显卡无法使用，不清楚哪里出了问题）**~~
+
+* 修改 my_proxy.sh 文件，使其不输出内容 √
+
+# 7. now
