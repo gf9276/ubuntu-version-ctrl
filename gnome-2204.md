@@ -478,3 +478,15 @@ conda install -c conda-forge conda-pack
 * 修改 my_proxy.sh 文件，使其不输出内容 √
 
 # 7. now
+
+* 安装 git lfs
+  
+  安装
+  ```
+  sudo apt-get install git-lfs
+  ```
+
+  验证
+  ```
+  git lfs install
+  ```
